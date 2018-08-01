@@ -1,5 +1,5 @@
-	//JSON Viewer  :  https://jsoneditoronline.org/
-	//JSON Path Finder :    https://jsonpath.curiousconcept.com/
+	JSON Viewer  		:  https://jsoneditoronline.org/
+	JSON Path Finder 	:  https://jsonpath.curiousconcept.com/
 **************************************************************************************
 1.Get(Read)
 
@@ -53,4 +53,30 @@ given().auth().oauth(consumerKey, consumerSecret, Token, TokenSecret)
 	https://mvnrepository.com/artifact/com.github.scribejava/scribejava-core/2.5.3
 	
 **************************************************************************************
+Response Codes: https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
 
+1.200	OK
+2.201	Created
+3.202	Accepted
+
+4.300	Multiple Choices
+5.301	Moved Permanently
+6.302	Found
+7.304	Not Modified
+
+8.400	Bad Request
+9.401	Unauthorized
+10.402	Payment Required
+11.403	Forbidden
+12.404	Not Found
+19.407	Proxy Authentication Required
+20.408	Request Timeout
+21.413	Payload Too Large
+
+13.500	Internal Server Error
+14.501	Not Implemented
+15.502	Bad Gateway
+16.503	Service Unavailable
+17.504	Gateway Timeout
+18.505	HTTP Version Not Supported
+22.507	Insufficient Storage
